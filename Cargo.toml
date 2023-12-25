@@ -1,0 +1,12 @@
+[package]
+name = "tcloud-archive"
+description = "Archive plugin for Tiny Cloud"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tcloud-library = { path = "../tcloud-library" }
+
+[dev-dependencies]
+tokio = { version = "1", features = [ "rt", "macros" ] }
+
